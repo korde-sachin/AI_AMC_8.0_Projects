@@ -4,3 +4,5 @@ __pycache__/
 *.pyc
 .vscode/
 LANGGRAPH_TEACHING_GUIDE.md
+.venv/
+*.egg-info/

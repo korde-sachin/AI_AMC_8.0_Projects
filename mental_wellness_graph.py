@@ -70,7 +70,7 @@ class WellnessState(BaseModel):
     practice_reason: str = ""
     final_suggestion: str = ""
     messages: Annotated[list, operator.add] = []
-
+    #messages: list = []
 
 llm = ChatOpenAI(model="gpt-4o-mini", temperature=0.7)
 
